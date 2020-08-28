@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appbanhang2020">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.Checkhome"></activity>
+        <activity android:name=".Seach_SP" />
+        <activity android:name=".Admin.Checkshipp" />
+        <activity android:name=".User.Thongtinnguoimuahang" />
+        <activity android:name=".Thanhtoan.CartSanPham" />
+        <activity android:name=".Thanhtoan.Chitietmuasp" />
+        <activity android:name=".Trangchu.Setting_Trangchu" />
+        <activity
+            android:name=".HomeActivyty"
+            android:label="@string/title_activity_home_activyty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Admin.Themchitietsp" />
+        <activity android:name=".Admin.ThemspAdmin" />
+        <activity android:name=".Trangchu.Trangchu" />
+        <activity android:name=".dangnhapki.Dangki_regin" />
+        <activity android:name=".dangnhapki.Dangnhap_login" />
+        <activity android:name=".dangnhapki.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

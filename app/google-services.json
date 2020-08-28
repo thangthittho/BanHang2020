@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "265713308795",
+    "firebase_url": "https://quanlyshop-642bb.firebaseio.com",
+    "project_id": "quanlyshop-642bb",
+    "storage_bucket": "quanlyshop-642bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265713308795:android:ca24764ed4c5a36ea17ede",
+        "android_client_info": {
+          "package_name": "com.example.appbanhang2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265713308795-51cpo4nritdg4m0n33h6fjmcdfdtot82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVAQBjoE2XoR0pJJhsU6SbvBQVaAxxISE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265713308795-51cpo4nritdg4m0n33h6fjmcdfdtot82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

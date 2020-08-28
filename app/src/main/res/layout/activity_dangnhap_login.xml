@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".dangnhapki.Dangnhap_login">
+
+    <ImageView
+        android:id="@+id/hinhanh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/applogo"
+        android:layout_width="300dp"
+        android:layout_height="100dp" />
+    <EditText
+        android:id="@+id/tendangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hinhanh"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Nhap so dien thoai"
+        android:textColor="#f000"
+        android:textSize="17dp"
+        android:padding="20dp"
+        android:background="@drawable/input_desgin"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tendangnhap"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight  ="15dp"
+        android:hint="Nhap mật khẩu"
+        android:textColor="#f000"
+        android:textSize="17dp"
+        android:padding="20dp"
+        android:background="@drawable/input_desgin"
+        />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/pass"
+        android:orientation="horizontal"
+        android:id="@+id/linh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/idcheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Material.Drawable.CheckBox"
+        android:text="Chấp nhận đăng nhập"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="15dp"
+        />
+
+        <TextView
+            android:id="@+id/quênmk"
+            android:text="Quên mật khẩu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginLeft="40dp"
+
+            android:textColor="#f000"
+
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/dangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:layout_marginBottom="10dp"
+        android:padding="0dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:text="Đăng nhập"
+        android:layout_below="@+id/linh"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+    android:id="@+id/admin"
+    android:text="Admins"
+    android:textSize="20dp"
+    android:layout_below="@+id/dangnhap"
+    android:layout_alignParentEnd="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/noadmin"
+        android:text="Iam no Admins"
+        android:textSize="20dp"
+        android:layout_below="@+id/dangnhap"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>

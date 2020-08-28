@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Thongtinnguoimuahang">
+<TextView
+    android:id="@+id/txt"
+    android:textSize="18dp"
+    android:layout_margin="25dp"
+    android:textAlignment="center"
+    android:text="Thông tin khách hàng"
+    android:textStyle="bold"
+    android:textColor="#ff00"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/ten"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Nhập tên người nhận"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/sodt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Nhập số điện thoại người nhận"
+        android:layout_below="@+id/ten"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/diachi"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Nhập địa chỉ người nhận"
+        android:layout_below="@+id/sodt"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/ok"
+    android:background="#60FF0000"
+    android:layout_margin="20dp"
+    android:text="hoàn thành"
+    android:layout_alignParentBottom="true"
+    android:textSize="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+</RelativeLayout>

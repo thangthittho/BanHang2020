@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    android:layout_height="wrap_content"
+    tools:context=".Admin.Checkhome">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sp_ha"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <EditText
+        android:id="@+id/sp_ten"
+        android:textSize="18dp"
+        android:padding="12dp"
+        android:layout_below="@+id/sp_ha"
+        android:hint="Gia san pham"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/sp_gia"
+        android:textSize="18dp"
+        android:padding="12dp"
+        android:layout_below="@+id/sp_ten"
+        android:hint="Gia san pham"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/sp_mota"
+        android:textSize="18dp"
+        android:padding="12dp"
+        android:layout_below="@+id/sp_gia"
+        android:hint="Gia san pham"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/sp_apdung"
+        android:textSize="18dp"
+        android:padding="12dp"
+        android:layout_below="@+id/sp_mota"
+        android:hint="Gia san pham"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

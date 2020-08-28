@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.ThemspAdmin">
+
+
+<TextView
+    android:id="@+id/txtadd"
+    android:text="Thêm sản phẩm"
+    android:layout_marginTop="10dp"
+    android:textSize="40dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/cut"
+    android:gravity="center"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_below="@+id/txtadd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/aophong"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/tshirts"
+        />
+    <ImageView
+        android:id="@+id/thethao"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/sports"
+        />
+    <ImageView
+        android:id="@+id/vayngan"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/female_dresses"
+        />
+    <ImageView
+        android:id="@+id/gile"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/sweather"
+        />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/biennhanh"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/cut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/aolot"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/glasses"
+            />
+        <ImageView
+            android:id="@+id/tuixach"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/purses_bags"
+            />
+        <ImageView
+            android:id="@+id/mu"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/hats"
+            />
+        <ImageView
+            android:id="@+id/giaydep"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/shoess"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cutaa"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/biennhanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/tainghe"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/headphoness"
+            />
+        <ImageView
+            android:id="@+id/maytinh"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/laptops"
+            />
+        <ImageView
+            android:id="@+id/dongho"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/watches"
+            />
+        <ImageView
+            android:id="@+id/dienthoai"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/mobiles"
+            />
+
+
+    </LinearLayout>
+
+      <Button
+          android:id="@+id/team"
+          android:layout_margin="10dp"
+          android:text="quan ly"
+          android:textSize="20dp"
+          android:background="@color/colorPrimaryDark"
+          android:textAllCaps="false"
+          android:layout_above="@+id/check_order"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      <Button
+          android:id="@+id/check_order"
+          android:layout_margin="10dp"
+          android:text="check shipp"
+          android:textSize="20dp"
+          android:background="@color/colorPrimaryDark"
+          android:textAllCaps="false"
+          android:layout_above="@+id/logout"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      <Button
+          android:id="@+id/logout"
+          android:layout_margin="10dp"
+          android:text="lgout"
+          android:textSize="20dp"
+          android:background="@color/colorPrimaryDark"
+          android:layout_alignParentBottom="true"
+          android:textAllCaps="false"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
